@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <locale.h> //tag para mostrar acentos no printf
+#include <locale.h> // tag para mostrar acentos no printf
 
 char bin[8];
 int binario(int x ) {
@@ -18,7 +18,7 @@ int binario(int x ) {
   }
 }
 
-int main(){
+int main() {
     printf("RA: 1430481911037\n");
     printf("RA: 1430481911007\n");
     printf("RA: 1430481911034\n");
@@ -40,7 +40,7 @@ int main(){
         fprintf(pa,"<table border=\"1\">");
         fprintf(pa, "<td>DEC</td> <td>BIN</td> <td>OCT</td> <td>HEX</td>");
 
-        for(i = 0; i < 16; i++) {
+        for (i = 0; i < 16; i++) {
             binario(i);
             fprintf(pa,"<tr> <td>%d </td>  <td> %s </td> <td> %o </td>  <td> %x </td> </tr>", i , bin , i , i);
         }

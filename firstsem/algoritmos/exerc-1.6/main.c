@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main() {
-    //EXERCICIO 1.6 PDF
+    // EXERCICIO 1.6 PDF
     double fa;
     double cel;
 

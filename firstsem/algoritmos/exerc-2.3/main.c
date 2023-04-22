@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main() {
-    //EXERCICIO 2.3 PDF
+    // EXERCICIO 2.3 PDF
     int ano;
 
     scanf("%d", &ano);

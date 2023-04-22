@@ -3,7 +3,7 @@
 
 int main()
 {
-    //EXERCICIO 1.4 PDF
+    // EXERCICIO 1.4 PDF
     double distancia;
     double litros;
     double media;

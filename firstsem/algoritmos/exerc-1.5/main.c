@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main() {
-    //EXERCICIO 1.5 PDF
+    // EXERCICIO 1.5 PDF
     char C;
 
     scanf("%c", &C);

@@ -3,7 +3,7 @@
 #include <math.h>
 
 int main() {
-  //EXERCICIO 1.7 PDF
+  // EXERCICIO 1.7 PDF
   double cat1;
   double cat2;
   double hipo;

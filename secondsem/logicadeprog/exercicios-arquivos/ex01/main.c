@@ -3,7 +3,7 @@
 #include <ctype.h>
 #define ORIGEM "origem.txt"
 
-int main(int argc, char * argv[]){
+int main(int argc, char * argv[]) {
     FILE * origem, * destino;
     char caractere;
 
