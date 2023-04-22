@@ -1,0 +1,6 @@
+Data: 07/01/19 - Indice: 60
+Data: 05/11/19 - Indice: 79
+Data: 08/08/19 - Indice: 40
+Data: 17/10/19 - Indice: 65
+Data: 12/12/12 - Indice: 64
+Data: 13/12/13 - Indice: 77
