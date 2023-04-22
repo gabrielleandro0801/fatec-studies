@@ -36,11 +36,11 @@ public class TesteFila {
         Fila f1 = new Fila(6);
         Fila f2 = new Fila(6);
         
-        for(i = 1; i < 6; i+= 2){
+        for (i = 1; i < 6; i+= 2){
             f1.insereFila(i);
         }
         System.out.println("\nf1: " + f1);
-        for(i = 2; i <= 6; i+=2){
+        for (i = 2; i <= 6; i+=2){
             f2.insereFila(i);
         }
         System.out.println("f2: " + f2);
