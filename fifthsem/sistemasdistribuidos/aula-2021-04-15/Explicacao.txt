@@ -1,0 +1,18 @@
+def soma(a, b):
+    return a + b
+	
+a = 1
+b = 2
+soma(a, b)
+
+compA	 <-- RPC -->	compB
+a = 1			def soma(a, b)
+b = 2		    	    return a + b
+soma(a, b)
+
+Sistema Distribuído - fracamente acoplado
+
+O sem serviço:
+Executar o comando: python3 /usr/local/bin/rpyc_classic.py
+E executar o usando o teleport da função. Olhar na gravação da aula
+

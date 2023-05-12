@@ -1,0 +1,11 @@
+1. O cliente envia um byte de início de transferência (STX)
+2. O servidor responde com um byte para sinalizar o início da transferência (ACK)
+3. O cliente envia as linhas das matrizes com separador entre elementos sendo o caractere '|' e o separador entre linhas o caractere ':'
+4. O servidor faz a divisão de linhas e elementos e os separa em duas listas, efentuando sua soma em seguida.
+5. O servidor armazena o resultado da soma em uma nova lista 
+6. O servidor envia ao cliente a linha resultante da soma com o separador entre elementos sendo o caractere '|'
+7. O cliente envia ao servidor um byte de confirmação de recebimento de resultado (ACK)
+8. O servidor envia ao cliente um byte indicando o fim de trnasferência (EOT)
+9. O cliente repete os passos 1sd a 8 até que acabem as linhas das matrizes a serem somadas
+10. O cliente exibe o resultado final
+s
